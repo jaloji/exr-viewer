@@ -1,0 +1,12 @@
+# Build output
+/build/
+/dist/
+/out/
+.vs/
+*.user
+__pycache__/
+
+# Test files: the generated cases are published (see testdata/README.md); decoder outputs and the
+# official OpenEXR test images (downloaded separately) are not.
+/testdata/*.out.png
+/testdata/openexr-images/
